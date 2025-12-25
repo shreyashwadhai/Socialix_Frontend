@@ -5,7 +5,8 @@ export const serviceApi = createApi({
     reducerPath: "serviceApi",
     baseQuery: fetchBaseQuery({
         // baseUrl: "https://socialix-backend.onrender.com/api/",
-        baseUrl: "http://localhost:5000/api/",
+        // baseUrl: "http://localhost:5000/api/",
+        baseUrl: "http://52.66.238.248:5000/api/",
         credentials: "include",
     }),
     keepUnusedDataFor: 60 * 60 * 24 * 7,

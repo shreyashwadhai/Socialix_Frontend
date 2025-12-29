@@ -3,8 +3,8 @@ import { addMyInfo, addSingle, addToAllPost, addUser, deleteThePost } from "./sl
 
 export const serviceApi = createApi({
     reducerPath: "serviceApi",
+    // baseUrl: "https://socialix-backend.onrender.com/api/",
     baseQuery: fetchBaseQuery({
-        // baseUrl: "https://socialix-backend.onrender.com/api/",
         // baseUrl: "http://localhost:5000/api/",
         baseUrl: "http://13.201.73.79:5000/api/",
         credentials: "include",
